@@ -1,0 +1,75 @@
+.MainContainer {
+    margin: 0 10vw;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 1rem;
+    background-color: #F5F5F5;
+}
+
+/*.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 16px;
+}*/
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.card .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card div {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+
+.right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.buyBtn {
+    background-color: var(--button-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.card .buyBtn:hover {
+    background-color: var(--button-color-hover);
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    .right {
+        align-items: flex-start;
+    }
+}

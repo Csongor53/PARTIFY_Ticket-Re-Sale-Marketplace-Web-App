@@ -1,0 +1,56 @@
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filerWrapper{
+    display: flex;
+    margin-left: 20px;
+}
+
+.filter {
+    margin: 1rem;
+}
+
+.sort {
+    margin: 1rem 0;
+}
+
+.filterIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterText {
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.select {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.datePicker {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}

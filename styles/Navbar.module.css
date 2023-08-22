@@ -1,0 +1,167 @@
+.navLinks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.navLinks > *:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.navWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--main-color);
+}
+
+.logo {
+    font-family: var(--fontFamily-roboto);
+    font-variant: all-small-caps;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--textOnMain-color);
+    text-decoration: none;
+}
+
+.cartIcon,
+.profileIcon {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: var(--textOnMain-color);
+    text-decoration: none;
+}
+
+.cartIcon:hover,
+.loginLink:hover {
+    color: var(--linkHover-color);
+}
+
+.profileIcon:hover {
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 4rem;
+    right: 5.5rem;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdownMenu li {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdownMenu li:last-child {
+    border-bottom: none;
+}
+.dropdownMenu li:last-child button {
+    color: firebrick;
+}
+
+.dropdownMenu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.loginLink {
+    color: var(--textOnMain-color);
+    text-decoration: none;
+}
+
+.bookmark {
+    align-self: flex-end;
+    padding: 8px 20px 10px;
+    margin-right: 1rem;
+    z-index: -10;
+    background-color: var(--button-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+}
+
+.bookmark:hover {
+    background-color: var(--button-color-hover);
+}
+
+.searchIcon {
+    font-size: 1.5rem;
+    color: var(--textOnMain-color);
+    cursor: pointer;
+}
+
+.searchIcon:hover {
+    color: var(--linkHover-color);
+}
+
+.searchBar {
+    display: none;
+    width: 25rem;
+    font-size: 1rem;
+    transition: width 0.5s ease-out;
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.visible {
+    display: flex;
+}
+
+.searchBar input {
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+}
+
+.searchBar input:focus {
+    border: none;
+    outline: none;
+}
+
+.newsBanner {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6px;
+    padding: .5rem 1rem;
+    background-color: #dedede;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newsBanner button {
+    color: black;
+}

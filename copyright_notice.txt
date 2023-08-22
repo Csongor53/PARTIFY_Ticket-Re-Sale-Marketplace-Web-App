@@ -1,0 +1,9 @@
+Copyright © 2023 Csongor Jánosi
+
+All rights reserved.
+
+The source code and design of the website "Partify" and its associated elements are the intellectual property of Csongor Jánosi and are protected by applicable copyright laws and international treaties. Unauthorized reproduction or distribution of this work, in whole or in part, without the express written permission of Csongor Jánosi, is strictly prohibited.
+
+Permission is granted only to companies and entities interested in potential collaboration or work relation with Csongor Jánosi. Such permission allows for the viewing of the source code solely for evaluation and discussion purposes. No right, title, or interest in the source code or associated materials is transferred to any party, except as expressly authorized in writing.
+
+For inquiries regarding licensing, collaboration, or any other usage of the source code, please contact Csongor Jánosi.

@@ -1,0 +1,79 @@
+/* Account Information Section */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+}
+
+.info {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.info p {
+    margin: 0.5rem 0;
+}
+
+.info strong {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+/* Table Switcher */
+
+.tableSwitcher {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.switchButton {
+    padding: 0.5rem 1.5rem;
+    background-color: #eee;
+    border: none;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.switchButton.active {
+    background-color: #ffcc00;
+    color: white;
+}
+
+/* Ticket Tables */
+
+.ticketsWrapper {
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+.ticketsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ticket {
+    width: 300px;
+    margin: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ticket h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.ticket p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
